@@ -1,0 +1,18 @@
+{
+  "name": "node_pki",
+  "version": "0.1.0",
+  "description": "Public Key Infrastructure to provision ESP32 devices with client certificates",
+  "main": "generatex509.js",
+  "dependencies": {
+    "node-forge": "^0.8.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mharizanov/node_pki.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mharizanov/node_pki/issues"
+  },
+  "homepage": "https://github.com/mharizanov/node_pki#readme"
+}
