@@ -4,6 +4,8 @@ Public Key Infrastructure to provision ESP32 devices with client certificates
 ## Installation
 ```shell
 git clone --recursive https://github.com/mharizanov/node_pki
+cd node_pki
+npm install
 ```
 
 ## Usage
