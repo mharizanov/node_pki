@@ -24,6 +24,7 @@ Proposed project file structure. The server/ca structure is copied from Jamie's 
 │       └── intermediate
 │           ├── crl
 │           │   └── intermediate.crl.pem
+│           ├── csr
 │           ├── newcerts
 │           ├── private
 │           │   ├── intermediate.key.pem
