@@ -9,31 +9,31 @@ Proposed project file structure. The server/ca structure is copied from Jamie's 
 │   ├── pki_server_settings.json
 │   ├── pki_server.js
 │   └── ca
-│            ├── crl
-│            │       └── ca.crl.pem
-│            ├── newcerts
-│            ├── private
-│            │       ├── ca.key.pem
-│            │       └── ...
-│            ├── certs
-│            │       ├── ca.key.pem
-│            │       └── ...
-│            ├── crlnumber (file)
-│            ├── serial (file)
-│            ├── index.txt
-│            └── intermediate
-│                        ├── crl
-│                        │       └── intermediate.crl.pem
-│                        ├── newcerts
-│                        ├── private
-│                        │       ├── intermediate.key.pem
-│                        │       └── ...
-│                        ├── certs
-│                        │       ├── intermediate.cert.pem
-│                        │       └── ca-chain.cert.pem
-│                        ├── crlnumber (file)
-│                        ├── serial (file)
-│                        └── index.txt
+│       ├── crl
+│       │   └── ca.crl.pem
+│       ├── newcerts
+│       ├── private
+│       │   ├── ca.key.pem
+│       │   └── ...
+│       ├── certs
+│       │   ├── ca.key.pem
+│       │   └── ...
+│       ├── crlnumber (file)
+│       ├── serial (file)
+│       ├── index.txt
+│       └── intermediate
+│           ├── crl
+│           │   └── intermediate.crl.pem
+│           ├── newcerts
+│           ├── private
+│           │   ├── intermediate.key.pem
+│           │   └── ...
+│           ├── certs
+│           │   ├── intermediate.cert.pem
+│           │   └── ca-chain.cert.pem
+│           ├── crlnumber (file)
+│           ├── serial (file)
+│           └── index.txt
 ├── img
 ├── docs
 └── README.md
