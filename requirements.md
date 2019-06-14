@@ -1,5 +1,43 @@
 The purpose of this project is to create pair of scripts that help provision IoT devices (e.g. ESP32) with unique client certificates.  
   
+Proposed project file structure. The server/ca structure is copied from Jamie's excellent publication [OpenSSL Certificate Authority](https://jamielinux.com/docs/openssl-certificate-authority/index.html "OpenSSL Certificate Authority")  
+```  
+├── client
+│   ├── pki_client_settings.json
+│   └── pki_client.js 
+├── server
+│   ├── pki_server_settings.json
+│   ├── pki_server.js
+│   └── ca
+│            ├── crl
+│            │       └── ca.crl.pem
+│            ├── newcerts
+│            ├── private
+│            │       ├── ca.key.pem
+│            │       └── ...
+│            ├── certs
+│            │       ├── ca.key.pem
+│            │       └── ...
+│            ├── crlnumber (file)
+│            ├── serial (file)
+│            ├── index.txt
+│            └── intermediate
+│                        ├── crl
+│                        │       └── intermediate.crl.pem
+│                        ├── newcerts
+│                        ├── private
+│                        │       ├── intermediate.key.pem
+│                        │       └── ...
+│                        ├── certs
+│                        │       ├── intermediate.cert.pem
+│                        │       └── ca-chain.cert.pem
+│                        ├── crlnumber (file)
+│                        ├── serial (file)
+│                        └── index.txt
+├── img
+├── docs
+└── README.md
+```  
 The below flow represents roughly (WIP) the concept:  
 ![Flow diagram](https://raw.githubusercontent.com/mharizanov/node_pki/master/PKI_flow_diagram.png)
 
