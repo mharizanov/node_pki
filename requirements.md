@@ -39,6 +39,9 @@ Proposed project file structure. The server/ca structure is copied from Jamie's 
 ├── docs
 └── README.md
 ```  
+  
+Example bash scripts I wrote to create the root and intermediate CAs, generate server certificate and generate client certificate: [gist](https://gist.github.com/mharizanov/93c015329fcc91e30571d5093aee0b6e)  
+  
 The below flow represents roughly (WIP) the concept:  
 ![Flow diagram](https://raw.githubusercontent.com/mharizanov/node_pki/master/PKI_flow_diagram.png)
 
