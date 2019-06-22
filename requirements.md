@@ -1,5 +1,5 @@
 The purpose of this project is to create pair of scripts that help provision IoT devices (e.g. ESP32) with unique client certificates.  
-  
+    
 Proposed project file structure. The server/ca structure is copied from Jamie's excellent publication [OpenSSL Certificate Authority](https://jamielinux.com/docs/openssl-certificate-authority/index.html "OpenSSL Certificate Authority")  
 ```  
 ├── client
